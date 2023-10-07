@@ -1,0 +1,43 @@
+
+body{
+    background-image: linear-gradient(rgb(66, 66, 200), rgb(25, 7, 44));
+    font-family: sans-serif;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+    height: 250px;
+    
+
+}
+#main-heading{
+    font-size: 20px;
+}
+.container{
+    padding-top: 10px;
+    border-style: solid;
+    border-radius: 9px;
+    border-width: thin 1px 1px 1px 1px;
+    border-color: white;
+    display: block;
+    color: white;
+}
+.list-items{
+    list-style: none;
+    padding-top: 8px;
+    width: 250px;
+    height: 20px;
+    margin: 2px;
+    position: relative;
+    left: -18px;
+    color: black;
+    background-color: white;
+    text-align: center;
+    font-size: 12px;
+}
+
+
