@@ -9,7 +9,7 @@
 // const listItems = document.getElementsByTagName('li')
 // console.log(listItems)
 // //querySelector()
-// const container = docement.queryselector('div')
+// const container = document.queryselector('div')
 // //It's used to select the one or first item that matches the selector is given
 
 //Styling Elements
@@ -72,18 +72,29 @@
 
 
 //Child Node Traversal
-let ul = document.querySelector('ul')
+// let ul = document.querySelector('ul')
 // console.log(ul.childNodes);
 // console.log(ul.firstChild);
 // console.log(ul.lastChild);
 
 // ul.childNodes[9].style.backgroundColor = 'yellow'
 
-console.log(ul.children)
-console.log(ul.firstElementChild)
-console.log(ul.lastElementChild)
+// console.log(ul.children)
+// console.log(ul.firstElementChild)
+// console.log(ul.lastElementChild)
 
-//Sibling Node Traversal*/
+//Sibling Node Traversal
+// let ul = document.querySelector('ul');
+// const div = document.querySelector('div')
+
+// console.log(div.childNodes)
+// console.log(ul);
+
+// console.log(ul.previousSibling);
+// console.log(ul.nextSibling);
+let getText = document.getElementsByClassName ("text")
+console.log(getText)
+getText.innerText = "Allahu Akbar"
 
 
 
